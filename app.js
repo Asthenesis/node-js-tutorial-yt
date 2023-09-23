@@ -1,5 +1,7 @@
-const _ = require('lodash')
+console.log('Test')
 
-const items = [1,[2,[3,[4]]]]
-const newItems = _.flattenDeep(items)
-console.log(newItems)
+setTimeout(() => {
+  console.log('Done')
+}, 5000)
+
+console.log('Back Again')
