@@ -1,7 +1,7 @@
 const http = require('http')
 
 const server = http.createServer((req, res) => {
-    console.error('request event')
+    console.log('request event')
     res.end('hello world')
 })
 
